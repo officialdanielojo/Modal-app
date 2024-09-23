@@ -19,6 +19,7 @@ main {
 .content_sect {
     width: 90vw;
     max-width: 620px;
+    padding-inline: 20px;
     border-radius: 10px;
     text-align: center;
     background-color: #ffff;
@@ -29,17 +30,17 @@ main {
 
 h1 {
     margin-block: 70px 50px;
-    font-size: 54px;
+    font-size: 40;
     color: #102a42;
     letter-spacing: 5px;
 }
 
 .open_btn {
     font-family: Arial;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #49a6e9;
     color: #ffff;
-    padding: 8px 15px;
+    padding: 8px 10px;
     border: 2px solid #1f7fc4;
     border-radius: 10px;
     letter-spacing: 5px;
@@ -55,8 +56,8 @@ h1 {
 }
 
 .modal_overlay {
-    min-height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    width: 100vw;
     position: absolute;
     background-color: rgba(73, 166, 233, 0.5);
     transition: all 0.1s linear;
